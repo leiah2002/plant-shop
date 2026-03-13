@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>FROLA AND FERN</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<div class="logo">
+<img src="logo.png" alt="logo">
+</div>
+
+<ul class="nav-links">
+<li><a href="#">Home</a></li>
+<li><a href="#">Plants</a></li>
+<li><a href="#">Flowers</a></li>
+<li><a href="#">Accessories</a></li>
+<li><a href="#">Tips</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+
+</nav>
+
+<section class="hero">
+
+<div class="hero-title">
+<h1>Flora And Fern</h1>
+</div>
+
+<div class="hero-content">
+<h2>Bring Nature Into Your Home</h2>
+<p>Beautiful plants and flowers for every space</p>
+<button>Shop Plants</button>
+</div>
+
+</section>
+<section class="categories">
+
+<h2>Shop Categories</h2>
+
+<div class="category-container">
+
+<div class="category-card">
+<img src="images/indoor plants.jpg" alt="Indoor Plants">
+<h3>Indoor Plants</h3>
+</div>
+
+<div class="category-card">
+<img src="images/flower plants.jpg" alt="Flowering Plants">
+<h3>Flowering Plants</h3>
+</div>
+
+<div class="category-card">
+<img src="images/outdoor plants.jpg" alt="Outdoor Plants">
+<h3>Outdoor / Garden Plants</h3>
+</div>
+
+<div class="category-card">
+<img src="images/pots and plants.jpg" alt="Pots">
+<h3>Pots & Planters</h3>
+</div>
+
+<div class="category-card">
+<img src="images/succulent.jpg" alt="Succulents">
+<h3>Succulents & Cactus</h3>
+</div>
+
+</div>
+
+</section>
+
+<section class="featured-plants">
+
+<h2> Plants</h2>
+
+<div class="plant-container">
+
+<div class="plant-card">
+<img src="images/monstera.jpg" alt="Monstera">
+<h3>Monstera Plant</h3>
+<p>ksh400</p>
+<button onclick="addToCart('Monstera Plant', 400)">Add to Cart</button>
+Add to Cart
+</div>
+
+<div class="plant-card">
+<img src="images/peach lilly.png" alt="Peace Lily">
+<h3>Peace Lily</h3>
+<p>ksh 500</p>
+<button onclick="addToCart('Peace Lily', 500)">Add to Cart</button>
+</div>
+
+<div class="plant-card">
+<img src="images/areca plant.png" alt="Areca plant">
+<h3>Rose Plant</h3>
+<p>ksh 350</p>
+<button onclick="addToCart('Areca', 500)">Add to Cart</button>
+</div>
+
+<div class="plant-card">
+<img src="images/aloe vera.jpg" alt="Aloe Vera">
+<h3>Aloe Vera</h3>
+<p>ksh 400</p>
+<button onclick="addToCart('Aloe Vera', 400)">Add to Cart</button>
+</div>
+<div class="plant-card">
+<img src="images/daisy 5.jpg" alt="strelitzia">
+<h3>strelitzia</h3>
+<p>ksh 500</p>
+<button onclick="addToCart('Strelitzia', 500)">Add to Cart</button>
+</div>
+<div class="plant-card">
+<img src="images/leiah 3.jpg" alt="ficus">
+<h3>ficus</h3>
+<p>ksh 500</p>
+<button onclick="addToCart('Ficus', 500)">Add to Cart</button>
+</div>
+<div class="plant-card">
+<img src="images/leiah 2.jpg" alt="trailing peperomia">
+<h3>trailing peperomia</h3>
+<p>ksh 500</p>
+<button onclick="addToCart('Trailing Peperomia', 500)">Add to Cart</button>
+</div>
+<div class="plant-card">
+<img src="images/leiah 1.jpg" alt="haworthia">
+<h3>haworthia</h3>
+<p>ksh 500</p>
+<button onclick="addToCart('Haworthia', 500)">Add to Cart</button>
+</div>
+<div class="plant-card">
+<img src="images/plant 4.png" alt="areca">
+<h3>areca</h3>
+<p>ksh 500</p>
+<button onclick="addToCart('Areca', 500)">Add to Cart</button>
+</div>
+<div class="plant-card">
+<img src="images/plant 3.png" alt="monstera deliciosa">
+<h3>monstera deliciosa</h3>
+<p>ksh 500</p>
+<button onclick="addToCart('Monstera Deliciosa', 500)">Add to Cart</button>
+</div>
+<div class="plant-card">
+<img src="images/plant 2.png" alt="fuchsia">
+<h3>fuchsia</h3>
+<p>ksh 500</p>
+<button onclick="addToCart('Fuchsia', 500)">Add to Cart</button>
+</div>
+<div class="plant-card">
+<img src="images/plant 1.png" alt="agave">
+<h3>agave</h3>
+<p>ksh 500</p>
+<button onclick="addToCart('Agave', 500)">Add to Cart</button>
+</div>
+<div class="plant-card">
+<img src="images/plant 5.png" alt="fiddle leaf fig">
+<h3>fiddle leaf fig</h3>
+<p>ksh 500</p>
+<button onclick="addToCart('Fiddle Leaf Fig', 500)">Add to Cart</button>
+</div>
+<div class="plant-card">
+<img src="images/succulent.jpg" alt="pincushion cactus">
+<h3>pincushion cactus</h3>
+<p>ksh 500</p>
+<button onclick="addToCart('Pincushion Cactus', 500)">Add to Cart</button>
+</div>
+
+<div class="plant-card">
+<img src="images/plant 9.jpg" alt="columnar">
+<h3>columnar</h3>
+<p>ksh 500</p>
+<button onclick="addToCart('Columnar', 500)">Add to Cart</button>
+</div>
+<div class="plant-card">
+<img src="images/plant 8.jpg" alt="echeveria">
+<h3>echeveria</h3>
+<p>ksh 500</p>
+<button onclick="addToCart('echeveria', 500)">Add to Cart</button>
+</div>
+<div class="plant-card">
+<img src="images/plant 7 (2).jpg" alt="medicinal alore">
+<h3>Aloe Vera</h3>
+<p>ksh 500</p>
+<button onclick="addToCart('Medicinal Aloe', 500)">Add to Cart</button>
+</div>
+<div class="plant-card">
+<img src="images/plant 6.jpg" alt="echeveria elegans">
+<h3>echeveria elegans</h3>
+<p>ksh 500</p>
+<button onclick="addToCart('Echeveria', 500)">Add to Cart</button>
+
+</div>
+</div>
+<section class="cart">
+
+<h2>Your Cart</h2>
+
+<ul id="cart-items"></ul>
+
+<p>Total: $<span id="cart-total">0</span></p>
+
+<button onclick="checkout()">Checkout</button>
+
+</section>
+
+</section>
+<footer class="footer">
+
+<div class="footer-container">
+
+<div class="footer-section">
+<h3>Shop</h3>
+<ul>
+<li><a href="#">Indoor Plants</a></li>
+<li><a href="#">Flowering Plants</a></li>
+<li><a href="#">Garden Plants</a></li>
+</ul>
+</div>
+
+<div class="footer-section">
+<h3>Support</h3>
+<ul>
+<li><a href="#">Delivery</a></li>
+<li><a href="#">FAQs</a></li>
+<li><a href="#">Returns</a></li>
+</ul>
+</div>
+
+<div class="footer-section">
+<h3>Company</h3>
+<ul>
+<li><a href="#">About</a></li>
+<li><a href="#">Blog</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</div>
+
+<div class="footer-section">
+<h3>Follow Us</h3>
+<div class="social-icons">
+<a href="#">Instagram</a>
+<a href="#">Facebook</a>
+<a href="#">Pinterest</a>
+</div>
+</div>
+
+</div>
+
+<div class="footer-bottom">
+<p>© 2026 My Flower And Plant Shop. All rights reserved.</p>
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
